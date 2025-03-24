@@ -1,0 +1,32 @@
+.red{
+     display: inline-block;   
+     background-color: red; 
+     width: 200px;  
+     height: 200px;
+     border-radius: 50%;
+
+}
+.green{
+        display: block;
+        background-color: green;
+        width: 200px;  
+        height: 200px;  
+}
+.blue{
+        display: block;
+       background-color: blue;
+       width: 200px;  
+       height: 200px;
+       .btn{
+        background-color: red;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+        transition: background color 0.5;
+
+       }
+       .btn:hover
+       background-color: yellow;
+
+}
